@@ -100,7 +100,7 @@ async function userInput (promptData,engArray=[],internArray=[]) {
 let myEmployee = new Employee('Hank', 420,'hankhill@stricklandpropane.com');
 randID = crypto.randomUUID();
 let genUser = {
-    [randId]: myEmployee
+    //[randId]: myEmployee TODO: generate UUID
 }
 for (const x in genUser) {
     console.log(genUser[x].name);
